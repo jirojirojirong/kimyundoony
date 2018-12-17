@@ -1,0 +1,115 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="normalize.css">
+
+<style>
+	#place {position: absolute; width: 1400px; height:900px; background-color:black; top:0; left:0; background-size: cover; background: url('page1.gif'); cursor: pointer;}
+
+
+#textp {position: absolute; top:50px; left:500px; text-align: center; line-height: 2em; font-size: 1em; color: #ffffff; opacity: 0;}
+
+
+    
+
+
+
+
+</style>
+
+<head>
+	<title>지호의 편지^^</title>
+</head>
+<body>
+
+
+
+<div id="place">
+	<p id="textp"> 
+
+		투! 김연준 언니 <br>
+
+언니 안뇽 <br>
+생일축하한당 ~~!! <br>
+언니 연초부터 여러가지 일로 맘고생 많이 하더니 <br>
+연말에 일이 술술 잘풀리는거 보니<br>
+보기가 좋다 ㅠ 부럽네 이거 ㅠㅠ <br>
+언니는 은근 안그럴거같은데 땅굴파는 느낌이당<br>
+그치만 내가볼땐 그럴필요 전혀 없다 ㅠ <br>
+언닌 디자인 실력도 좋고, 이제 885김 연준에서 965 김연준 됐잖아?<br>
+졸업하고 나서도 다른애들 싹다 면접과 포폴로 조질 인생이다~!<br>
+그러니 우울해하지 말아라 마ㅜ 그리고 졸전 때도 뭐 힘들긴 하겠지만<br>
+융두덩이호랑 재밌게 작업할거니까 두려울건 없다 ㅜ<br>
+아 그냥 두덩이호구나, 암튼 믓지게 졸업해서 우리 모두<br>
+운수대통 창창하게 살자 ㅜㅜ 난 이제 연초부터 영어공부<br>
+들어갈라니깐 엉엉 헷 <br>
+아 그리고 그동안 여러가지로 지호를 도와줘서 <br>
+고맙단 말도 해야겠다 ㅜ<br>
+나도 언니 도와줄 수 있는건 다 도와줄거다ㅜㅜ <br>
+디자인과 영어는 못하지만 ㅎㅎ ;; 고민상담과 <br>
+한탄 들어주는건 내 전문이다~! <br>
+내가 친구들 얘기 들어주는거 하난 잘한당<br>
+앞으로 고민이나 한탄이 하고싶음 언제든지 말하라구~!<br>
+그럼 마지막으로 다시 생일 축하한다 언니~~~짝짝짝<br><br>
+
+
+지호 
+
+	</p>
+
+    
+ 
+
+</div>
+
+
+
+
+<script type="text/javascript">
+
+
+
+
+
+	var imgA = ["page1", //0
+	            "page2", //1
+	            "page3"]; //2
+
+
+	var q = 0;
+
+
+
+
+
+
+	
+place.onclick = function(){
+
+
+q++;
+if(q == 2) {textp.style.opacity = 1;
+}
+if(q == 3) {q = 0; textp.style.opacity = 0;}
+
+var jiho = "url('"+imgA[q]+".gif')";
+
+
+
+place.style.background = jiho;
+
+
+
+  
+
+}
+
+
+
+
+
+</script>
+
+
+</body>
+</html>
